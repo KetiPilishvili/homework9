@@ -1,11 +1,15 @@
 
 /* #### Desktops #### */
 
-@media  (min-width:360px) {
+@media  (max-width:360px) {
   body 
   .background-box {
     height: 40%;
     width: 40%;
+  }
+  .background-img {
+    height: 100%;
+    width: 100%;
   }
  }
 
