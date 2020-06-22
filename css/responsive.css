@@ -2,23 +2,28 @@
 /* #### Desktops #### */
 
 @media only screen and (min-width:320px), screen and (max-width:640px) {
+  .background-img {
+    width: 100%;
+    background-position: left;
+  }
+  .bachground-box {
+    width: 30%;
+  }
 }
+@media  (max-width: 360px){
+  h3 {
+    margin-left: 20px;
+  }
 
+}
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-	body {
-		background-color: red;
-	}
-
 	.article-box{
 		display: flex;
 		justify-content: space-between;
 	}
 }
 @media  (min-width: 992px) and (max-width: 1200px) {
-	body {
-		background-color: blue;
-	}
-  	.article-box {
+	.ticle-box {
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
@@ -29,11 +34,7 @@
 }
 
 @media (max-width: 1150px) {
-  body {		
-  	background-color: yellow;
-  } 
-
-  	.article-box {
+  .article-box {
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
